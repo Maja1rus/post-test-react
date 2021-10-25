@@ -1,0 +1,37 @@
+/* CSS .pages*/
+.page__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px;
+    width: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.page + .page {
+    margin-left: 15px;
+}
+
+.page__normal{
+    border: 1px solid #41B3A3;
+    transition: .2s ease;
+}
+
+.page__normal:hover {
+    background: #41B3A3;
+}
+
+.page__active {
+    background: #ebe1b0;
+    border: 1px solid #ebe1b0;
+    color: #272729;
+}

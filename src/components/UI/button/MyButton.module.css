@@ -1,0 +1,30 @@
+.btn__open {
+    margin-bottom: 10px;
+    border: 1px solid #ebe1b0;
+}
+
+.btn__open:hover {
+    background: #ebe1b0;
+    color: #272729;
+}
+
+.btn__add {
+    border: 1px solid #14A76C;
+    
+}
+
+.btn__add:hover {
+    background: #14A76C;
+}
+
+.btn__delete {
+    border: 1px solid #F76C6C;
+}
+
+.btn__delete:hover {
+    background: #F76C6C;
+}
+
+.btn__delete, .btn__open {
+    width: 88px;
+}

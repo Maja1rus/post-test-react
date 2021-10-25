@@ -1,0 +1,14 @@
+.MySelect {
+    background: transparent;
+    color:#EDF5E1;
+    padding: 7px;
+    
+    font-size: 16px;
+    border: 2px solid #E85A4F;
+    
+}
+
+.MySelect option {
+    background: #272729;
+    transition: .3s ease;
+}

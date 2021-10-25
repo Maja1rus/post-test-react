@@ -1,0 +1,15 @@
+.MyInput {
+    width: 100%;
+    padding: 7px 15px;
+    margin: 5px 0;
+    font-size: 16px;
+    background:transparent;
+    color:#EDF5E1;
+    border: 2px solid #E8A87C;
+    cursor: pointer;
+}
+
+.MyInput+.MyInput {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
